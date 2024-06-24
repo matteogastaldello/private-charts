@@ -10,6 +10,6 @@ entries:
     name: fireworks-app
     type: application
     urls:
-    - fireworks-app-0.1.0.tgz
+    - https://raw.githubusercontent.com/matteogastaldello/private-charts/main/fireworks-app-0.1.0.tgz
     version: 0.1.0
 generated: "2024-06-24T13:14:02.660722+02:00"
