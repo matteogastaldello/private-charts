@@ -3,7 +3,7 @@ entries:
   fireworks-app:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-01T16:51:44.626405+02:00"
+    created: "2024-07-02T16:09:11.551589+02:00"
     description: A Helm chart for Kubernetes
     digest: ccf0c41716fcdf8ac83c72621d09ee589ea0bdfba34961879fac4d0af8ebdaa0
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -12,10 +12,21 @@ entries:
     urls:
     - fireworks-app-0.1.0.tgz
     version: 0.1.0
+  installer:
+  - apiVersion: v2
+    appVersion: 0.5.3
+    created: "2024-07-02T16:09:11.552501+02:00"
+    description: Krateo PlatformOps Installer
+    digest: 5f8cae7e0c02aff18688be1db4b480f68d4a7ae464c19227536a27471cba35df
+    name: installer
+    type: application
+    urls:
+    - installer-0.3.2.tgz
+    version: 0.3.2
   krateo-bff:
   - apiVersion: v2
     appVersion: 0.22.1
-    created: "2024-07-01T16:51:44.627033+02:00"
+    created: "2024-07-02T16:09:11.553113+02:00"
     description: Krateo PlatformOps Backend For Frontend
     digest: 167d26de436b42d68bf46e67caafe6118fc2ff3026d6869113dd2d3f9e3a598e
     name: krateo-bff
@@ -26,7 +37,7 @@ entries:
   krateo-gateway:
   - apiVersion: v2
     appVersion: 0.3.12
-    created: "2024-07-01T16:51:44.627584+02:00"
+    created: "2024-07-02T16:09:11.553634+02:00"
     description: Krateo PlatformOps Gateway
     digest: 6ae3bd5192b9a7dd6cee8ee569ba530f6c9de335db89f2c9387a3d897baf8be2
     name: krateo-gateway
@@ -34,4 +45,4 @@ entries:
     urls:
     - krateo-gateway-0.3.15.tgz
     version: 0.3.15
-generated: "2024-07-01T16:51:44.624849+02:00"
+generated: "2024-07-02T16:09:11.549747+02:00"
