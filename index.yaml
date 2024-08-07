@@ -3,7 +3,24 @@ entries:
   compositionTestId:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-08-07T16:25:01.13168+02:00"
+    created: "2024-08-07T16:36:27.591416+02:00"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: ~0.1.8
+    description: A Helm chart for Kubernetes
+    digest: a28c61e53eccf418fb041509d4c124ab02f111f74d1b65e42652bc7c68dac875
+    icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
+    name: compositionTestId
+    type: application
+    urls:
+    - compositionTestId-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-08-07T16:36:27.562793+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -20,7 +37,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-08-07T16:25:01.130703+02:00"
+    created: "2024-08-07T16:36:27.560149+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -38,7 +55,7 @@ entries:
   fireworks-app:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-08-07T16:25:01.134456+02:00"
+    created: "2024-08-07T16:36:27.597653+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -55,7 +72,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-07T16:25:01.133292+02:00"
+    created: "2024-08-07T16:36:27.593285+02:00"
     description: A Helm chart for Kubernetes
     digest: ccf0c41716fcdf8ac83c72621d09ee589ea0bdfba34961879fac4d0af8ebdaa0
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -67,7 +84,7 @@ entries:
   installer:
   - apiVersion: v2
     appVersion: 0.5.3
-    created: "2024-08-07T16:25:01.137058+02:00"
+    created: "2024-08-07T16:36:27.599459+02:00"
     description: Krateo PlatformOps Installer
     digest: a12259da710d3bf2e0a05c975abf389d3fa12c09f1c8d3a364ab7b90af7c89c2
     name: installer
@@ -78,7 +95,7 @@ entries:
   krateo-bff:
   - apiVersion: v2
     appVersion: 0.22.1
-    created: "2024-08-07T16:25:01.137871+02:00"
+    created: "2024-08-07T16:36:27.600721+02:00"
     description: Krateo PlatformOps Backend For Frontend
     digest: 167d26de436b42d68bf46e67caafe6118fc2ff3026d6869113dd2d3f9e3a598e
     name: krateo-bff
@@ -89,7 +106,7 @@ entries:
   krateo-gateway:
   - apiVersion: v2
     appVersion: 0.3.12
-    created: "2024-08-07T16:25:01.142201+02:00"
+    created: "2024-08-07T16:36:27.601488+02:00"
     description: Krateo PlatformOps Gateway
     digest: 6ae3bd5192b9a7dd6cee8ee569ba530f6c9de335db89f2c9387a3d897baf8be2
     name: krateo-gateway
@@ -100,7 +117,7 @@ entries:
   krateo-template-application-microservice-springboot:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T16:25:01.1428+02:00"
+    created: "2024-08-07T16:36:27.60262+02:00"
     description: A Helm chart for Kubernetes
     digest: 09b1ec833276c5b8ce871cbae8c8bb0dcef223ca744592dbf64361cfd6bafbd5
     name: krateo-template-application-microservice-springboot
@@ -111,7 +128,7 @@ entries:
   powerbi:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2024-08-07T16:25:01.143341+02:00"
+    created: "2024-08-07T16:36:27.603381+02:00"
     description: Helm chart to manage an PowerBI
     digest: 92e30b0d30ace6c3de7f68c2080ff13d53c357a1241e172d9b2c936b6a4a0943
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -120,4 +137,4 @@ entries:
     urls:
     - powerbi-0.0.3.tgz
     version: 0.0.3
-generated: "2024-08-07T16:25:01.129026+02:00"
+generated: "2024-08-07T16:36:27.558538+02:00"
