@@ -3,7 +3,7 @@ entries:
   application-group:
   - apiVersion: v2
     appVersion: 0.0.96
-    created: "2025-02-26T16:49:57.383375+01:00"
+    created: "2025-07-03T15:30:54.564234+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -18,10 +18,31 @@ entries:
     urls:
     - application-group-0.0.96.tgz
     version: 0.0.96
+  chart-ns:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-07-03T15:30:54.5647+02:00"
+    description: A Helm chart with namespace management
+    digest: e4643c4e07f83e55dd1fb2a4493bc6ac33b2fbe2580e813fc780b573c06dd8d0
+    home: https://github.com/example/chart-ns
+    keywords:
+    - namespace
+    - example
+    - base-chart
+    maintainers:
+    - email: maintainer@example.com
+      name: Chart Maintainer
+    name: chart-ns
+    sources:
+    - https://github.com/example/chart-ns
+    type: application
+    urls:
+    - chart-ns-0.1.0.tgz
+    version: 0.1.0
   fabric-datastack:
   - apiVersion: v2
     appVersion: 0.0.42
-    created: "2025-02-26T16:49:57.38409+01:00"
+    created: "2025-07-03T15:30:54.565279+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -36,10 +57,27 @@ entries:
     urls:
     - fabric-datastack-0.0.42.tgz
     version: 0.0.42
+  - apiVersion: v2
+    appVersion: 0.0.42
+    created: "2025-07-03T15:30:54.565894+02:00"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: 0.2.8
+    description: Helm chart to manage a Fabric datastack
+    digest: b35547ed4a43bcb2e6076ed72f6e33005a6776036b44bebcb28b54203f39e9e5
+    icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
+    name: fabric-datastack
+    type: application
+    urls:
+    - fabric-datastack-0.0.42.tgz 10-07-39-796.tgz
+    version: 0.0.42
   fireworks-app:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-02-26T16:49:57.385767+01:00"
+    created: "2025-07-03T15:30:54.567546+02:00"
     description: A Helm chart for Kubernetes
     digest: ccf0c41716fcdf8ac83c72621d09ee589ea0bdfba34961879fac4d0af8ebdaa0
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -50,7 +88,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-02-26T16:49:57.38472+01:00"
+    created: "2025-07-03T15:30:54.566283+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -68,7 +106,7 @@ entries:
   focus-template:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2025-02-26T16:49:57.389434+01:00"
+    created: "2025-07-03T15:30:54.568683+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 04d3f5489763880055a0467ca1247433664df2709500c794d4b7ecd2683e3cac
@@ -79,7 +117,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2025-02-26T16:49:57.389194+01:00"
+    created: "2025-07-03T15:30:54.56839+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 301dba33d9f55717ef7ebca91116c2eec342dfb735826f592269c8612475b881
@@ -90,7 +128,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.9
-    created: "2025-02-26T16:49:57.388964+01:00"
+    created: "2025-07-03T15:30:54.568195+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 555ceea3974333a923bc642f33b883ea274744dda559d4a8fa788de987b508ec
@@ -101,7 +139,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 0.2.8
-    created: "2025-02-26T16:49:57.388723+01:00"
+    created: "2025-07-03T15:30:54.567995+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 46025af544eb1c0a70ee0879e87b624e0179e2521de6bcb63d6c62b97d4deceb
@@ -112,7 +150,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 0.2.7
-    created: "2025-02-26T16:49:57.388385+01:00"
+    created: "2025-07-03T15:30:54.567766+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 9598e40f37f2879ecd6adcc18ae290dbf03dbaf2eef96d048827225faec3f77c
@@ -124,7 +162,7 @@ entries:
   krateo-template-domain-gitops:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-26T16:49:57.390074+01:00"
+    created: "2025-07-03T15:30:54.569292+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -141,7 +179,7 @@ entries:
   microservice:
   - apiVersion: v2
     appVersion: 0.0.23
-    created: "2025-02-26T16:49:57.391125+01:00"
+    created: "2025-07-03T15:30:54.569851+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -159,7 +197,7 @@ entries:
   powerbi:
   - apiVersion: v2
     appVersion: 0.0.43
-    created: "2025-02-26T16:49:57.391838+01:00"
+    created: "2025-07-03T15:30:54.570402+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -177,7 +215,7 @@ entries:
   repobase:
   - apiVersion: v2
     appVersion: 0.0.16
-    created: "2025-02-26T16:49:57.392405+01:00"
+    created: "2025-07-03T15:30:54.570813+02:00"
     description: Helm chart to manage a base repository
     digest: 63d70a2d47ac06129714d3c40f57ec7c66ab940faf816cdae2730c0ba5387d90
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -186,4 +224,4 @@ entries:
     urls:
     - repobase-0.0.16.tgz
     version: 0.0.16
-generated: "2025-02-26T16:49:57.381225+01:00"
+generated: "2025-07-03T15:30:54.56124+02:00"
