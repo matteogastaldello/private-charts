@@ -2,25 +2,8 @@ apiVersion: v1
 entries:
   application-group:
   - apiVersion: v2
-    created: "2026-02-09T10:42:34.454073+01:00"
-    dependencies:
-    - name: portal-composition-base
-      repository: oci://acrprokrateo.azurecr.io/bse-toolchaindevops
-      version: 1.3.0-rc.3
-    - name: krt-cleaner-chart
-      repository: oci://acrprokrateo.azurecr.io/bse-toolchaindevops
-      version: 1.4.0
-    description: Helm chart to manage an Application Group
-    digest: c56d0326aceb0790e77829d6701f043fb05b1cf55b5f978a9f4d0800ec592d18
-    icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
-    name: application-group
-    type: application
-    urls:
-    - chart-ns/test.tgz
-    version: 1.6.0-rc.2
-  - apiVersion: v2
     appVersion: 0.0.96
-    created: "2026-02-09T10:42:34.431117+01:00"
+    created: "2026-04-03T09:54:59.591717+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -36,7 +19,7 @@ entries:
     - application-group-0.0.96.tgz
     version: 0.0.96
   - apiVersion: v2
-    created: "2026-02-09T10:42:34.429546+01:00"
+    created: "2026-04-03T09:54:59.58963+02:00"
     dependencies:
     - name: portal-composition-base
       repository: oci://acrprokrateo.azurecr.io/bse-toolchaindevops
@@ -55,7 +38,7 @@ entries:
   az-cluster:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-02-09T10:42:34.431683+01:00"
+    created: "2026-04-03T09:54:59.5921+02:00"
     description: A Helm chart for Krateo FireworksApp with Graceful Pause feature
     digest: e93b9257e0b39d1b3c4694a209a949e8a4080fea0b7fc9c5f2ada6e7aee93e33
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -64,10 +47,39 @@ entries:
     urls:
     - az-cluster-0.0.1.tgz
     version: 0.0.1
+  carbus:
+  - apiVersion: v2
+    created: "2026-04-03T09:54:59.593253+02:00"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: oci://europe-west1-docker.pkg.dev/gke-test-sigemi/helmchart
+      version: 1.1.75
+    description: A Helm chart for deploying the Carbus application on GKE using Config
+      Connector.
+    digest: d424c94c0a0001cde726ec3abca87e08faf672a9e769198322209f84a01cd94e
+    name: carbus
+    type: application
+    urls:
+    - carbus-0.0.12.tgz
+    version: 0.0.12
+  - apiVersion: v2
+    created: "2026-04-03T09:54:59.594505+02:00"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: oci://europe-west1-docker.pkg.dev/gke-test-sigemi/helmchart
+      version: 1.1.38
+    description: A Helm chart for deploying the Carbus application on GKE using Config
+      Connector.
+    digest: 6b89958f2b27e15a4e270b24dafec0d71e831ba835362d86d3182bfd38e35a22
+    name: carbus
+    type: application
+    urls:
+    - carbus-0.0.8.tgz
+    version: 0.0.8
   cascading-lookup-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-09T10:42:34.431903+01:00"
+    created: "2026-04-03T09:54:59.594904+02:00"
     description: A Helm chart demonstrating cascading conditional lookups for progressive
       resource deployment
     digest: 41e1b70a16764d5978ede0a46889eee532a097c16f722ff122622456b74e9dc1
@@ -86,7 +98,7 @@ entries:
   chart-ns:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-09T10:42:34.434182+01:00"
+    created: "2026-04-03T09:54:59.597339+02:00"
     description: A Helm chart with namespace management
     digest: 8ba403079c53c3ca58f65e9723cb5d86df0c1f05837c536af2bffd0bbcbea65d
     home: https://github.com/example/chart-ns
@@ -106,7 +118,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-09T10:42:34.433225+01:00"
+    created: "2026-04-03T09:54:59.59667+02:00"
     description: A Helm chart with namespace management
     digest: 6cdcebd6be09fbdb4c1f94b3991d98d408e285ec959277ab775086c7e1d228bb
     home: https://github.com/example/chart-ns
@@ -126,27 +138,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-09T10:42:34.452678+01:00"
-    description: A Helm chart with namespace management
-    digest: 6cdcebd6be09fbdb4c1f94b3991d98d408e285ec959277ab775086c7e1d228bb
-    home: https://github.com/example/chart-ns
-    keywords:
-    - namespace
-    - example
-    - base-chart
-    maintainers:
-    - email: maintainer@example.com
-      name: Chart Maintainer
-    name: chart-ns
-    sources:
-    - https://github.com/example/chart-ns
-    type: application
-    urls:
-    - chart-ns/chart-ns-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2026-02-09T10:42:34.432551+01:00"
+    created: "2026-04-03T09:54:59.595299+02:00"
     description: A Helm chart with namespace management
     digest: e4643c4e07f83e55dd1fb2a4493bc6ac33b2fbe2580e813fc780b573c06dd8d0
     home: https://github.com/example/chart-ns
@@ -164,30 +156,10 @@ entries:
     urls:
     - chart-ns-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2026-02-09T10:42:34.452131+01:00"
-    description: A Helm chart with namespace management
-    digest: 7f45bf20226fc736486b586e8c75a8653b02140b2da5d35a0f6d6467ba62d25a
-    home: https://github.com/example/chart-ns
-    keywords:
-    - namespace
-    - example
-    - base-chart
-    maintainers:
-    - email: maintainer@example.com
-      name: Chart Maintainer
-    name: chart-ns
-    sources:
-    - https://github.com/example/chart-ns
-    type: application
-    urls:
-    - chart-ns/chart-ns-0.1.0.tgz
-    version: 0.1.0
   fabric-datastack:
   - apiVersion: v2
     appVersion: 0.0.42
-    created: "2026-02-09T10:42:34.435482+01:00"
+    created: "2026-04-03T09:54:59.597848+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -204,7 +176,7 @@ entries:
     version: 0.0.42
   fireworks-app:
   - apiVersion: v2
-    created: "2026-02-09T10:42:34.438286+01:00"
+    created: "2026-04-03T09:54:59.600535+02:00"
     dependencies:
     - name: portal-composition-page-generic
       repository: https://marketplace.krateo.io
@@ -217,7 +189,7 @@ entries:
     - fireworks-app-2.0.4.tgz
     version: 2.0.4
   - apiVersion: v2
-    created: "2026-02-09T10:42:34.437511+01:00"
+    created: "2026-04-03T09:54:59.599906+02:00"
     dependencies:
     - name: portal-composition-page-generic
       repository: https://marketplace.krateo.io
@@ -231,7 +203,7 @@ entries:
     version: 2.0.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-02-09T10:42:34.436619+01:00"
+    created: "2026-04-03T09:54:59.599286+02:00"
     description: A Helm chart for Kubernetes
     digest: ccf0c41716fcdf8ac83c72621d09ee589ea0bdfba34961879fac4d0af8ebdaa0
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -242,7 +214,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-02-09T10:42:34.436089+01:00"
+    created: "2026-04-03T09:54:59.598395+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -260,7 +232,7 @@ entries:
   focus-template:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2026-02-09T10:42:34.43939+01:00"
+    created: "2026-04-03T09:54:59.601754+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 04d3f5489763880055a0467ca1247433664df2709500c794d4b7ecd2683e3cac
@@ -271,7 +243,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2026-02-09T10:42:34.439195+01:00"
+    created: "2026-04-03T09:54:59.601481+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 301dba33d9f55717ef7ebca91116c2eec342dfb735826f592269c8612475b881
@@ -282,7 +254,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.9
-    created: "2026-02-09T10:42:34.438998+01:00"
+    created: "2026-04-03T09:54:59.601289+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 555ceea3974333a923bc642f33b883ea274744dda559d4a8fa788de987b508ec
@@ -293,7 +265,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 0.2.8
-    created: "2026-02-09T10:42:34.438798+01:00"
+    created: "2026-04-03T09:54:59.601088+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 46025af544eb1c0a70ee0879e87b624e0179e2521de6bcb63d6c62b97d4deceb
@@ -304,7 +276,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 0.2.7
-    created: "2026-02-09T10:42:34.438555+01:00"
+    created: "2026-04-03T09:54:59.600818+02:00"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only
     digest: 9598e40f37f2879ecd6adcc18ae290dbf03dbaf2eef96d048827225faec3f77c
@@ -316,7 +288,7 @@ entries:
   github-scaffolding-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-09T10:42:34.439823+01:00"
+    created: "2026-04-03T09:54:59.602289+02:00"
     description: A Helm chart for GithubScaffoldingWithCompositionPage
     digest: 241dd9366a7b7a7bf010fecdb357b3aa2ca79ede8f3e9b4a70df2ac603ec6da3
     name: github-scaffolding-chart
@@ -327,7 +299,7 @@ entries:
   gracefulpause-test:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-02-09T10:42:34.441514+01:00"
+    created: "2026-04-03T09:54:59.603519+02:00"
     description: A Helm chart for Krateo FireworksApp with Graceful Pause feature
     digest: b6661dc4656dbc7e0f10ff9af9b92c3c9aad7d55492d3520f6507efa6435dd75
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -338,7 +310,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-02-09T10:42:34.440963+01:00"
+    created: "2026-04-03T09:54:59.603126+02:00"
     description: A Helm chart for Krateo FireworksApp with Graceful Pause feature
     digest: eeaaecfdfb1ac7c4b51b8a146f98508a53c2e0701f02905bede14b3fad64d8a4
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -349,7 +321,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-02-09T10:42:34.4402+01:00"
+    created: "2026-04-03T09:54:59.60274+02:00"
     description: A Helm chart for Krateo FireworksApp with Graceful Pause feature
     digest: 64367a93c49c5c5a95f7b64d5c180a2884af0d0834d2024571c9d0f9932d71e9
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -361,7 +333,7 @@ entries:
   krateo-template-domain-gitops:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-09T10:42:34.441941+01:00"
+    created: "2026-04-03T09:54:59.604023+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -378,7 +350,7 @@ entries:
   krateo-template-toolchain-coreto-microservice:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2026-02-09T10:42:34.444565+01:00"
+    created: "2026-04-03T09:54:59.606231+02:00"
     dependencies:
     - alias: gitops
       name: krateo-template-cicd-gitops
@@ -398,7 +370,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2026-02-09T10:42:34.443746+01:00"
+    created: "2026-04-03T09:54:59.60556+02:00"
     dependencies:
     - alias: gitops
       name: krateo-template-cicd-gitops
@@ -418,7 +390,7 @@ entries:
     version: 0.1.190
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2026-02-09T10:42:34.442924+01:00"
+    created: "2026-04-03T09:54:59.604795+02:00"
     dependencies:
     - alias: gitops
       name: krateo-template-cicd-gitops
@@ -442,7 +414,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: "11.4"
-    created: "2026-02-09T10:42:34.446736+01:00"
+    created: "2026-04-03T09:54:59.608383+02:00"
     description: A Helm chart for MariaDB cluster deployment using MariaDB Operator
       CRDs
     digest: ec39810645093bf11d246e06fcd26f5d48b01434bd14bb4e6b098cc31ae64784
@@ -467,7 +439,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: "11.4"
-    created: "2026-02-09T10:42:34.446121+01:00"
+    created: "2026-04-03T09:54:59.60784+02:00"
     description: A Helm chart for MariaDB cluster deployment using MariaDB Operator
       CRDs
     digest: 1e9852d532636cdfb7a8fcd08d15c8dc108675532a40610671a8aa80b930717b
@@ -492,7 +464,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: "11.4"
-    created: "2026-02-09T10:42:34.445313+01:00"
+    created: "2026-04-03T09:54:59.606944+02:00"
     description: A Helm chart for MariaDB cluster deployment using MariaDB Operator
       CRDs
     digest: 44413797decdba6e2b3cf4838e8593990446e269b53e3059d3ab197691994186
@@ -515,7 +487,7 @@ entries:
   massive-crs-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-09T10:42:34.447055+01:00"
+    created: "2026-04-03T09:54:59.608462+02:00"
     description: Helm chart to create a large number of custom resources for testing
     digest: 35b09ed8a4af84d90fe60523a67655606e959f5fc17f30028eb4825cfa002289
     name: massive-crs-chart
@@ -526,7 +498,7 @@ entries:
   microservice:
   - apiVersion: v2
     appVersion: 0.0.23
-    created: "2026-02-09T10:42:34.447875+01:00"
+    created: "2026-04-03T09:54:59.609046+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -545,7 +517,7 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
-    created: "2026-02-09T10:42:34.448849+01:00"
+    created: "2026-04-03T09:54:59.609874+02:00"
     description: A Blueprint for Krateo Composable Portal Blueprint page
     digest: 9bcc10e9d2d6c44bc9882c228b900133130af73013db0d83b80e8e04192d90c6
     home: https://krateo.io
@@ -562,7 +534,7 @@ entries:
   powerbi:
   - apiVersion: v2
     appVersion: 0.0.43
-    created: "2026-02-09T10:42:34.449542+01:00"
+    created: "2026-04-03T09:54:59.610489+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -580,7 +552,7 @@ entries:
   repobase:
   - apiVersion: v2
     appVersion: 0.0.16
-    created: "2026-02-09T10:42:34.450663+01:00"
+    created: "2026-04-03T09:54:59.61095+02:00"
     description: Helm chart to manage a base repository
     digest: 63d70a2d47ac06129714d3c40f57ec7c66ab940faf816cdae2730c0ba5387d90
     icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
@@ -591,7 +563,7 @@ entries:
     version: 0.0.16
   test-bs:
   - apiVersion: v2
-    created: "2026-02-09T10:42:34.45135+01:00"
+    created: "2026-04-03T09:54:59.611374+02:00"
     description: A Helm chart for Kubernetes
     digest: 1ca10c417b23ac9a758de244caaed5e417629d2257a3cc56915bf25ecf9d3ac2
     name: test-bs
@@ -600,7 +572,7 @@ entries:
     - test-bs-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2026-02-09T10:42:34.451099+01:00"
+    created: "2026-04-03T09:54:59.611185+02:00"
     description: A Helm chart for Kubernetes
     digest: 2168ce7855a087b524ca5be3f37490feeaec67048aae91488bf1ff44924e3275
     name: test-bs
@@ -610,7 +582,7 @@ entries:
     version: 0.1.0
   vm-migration:
   - apiVersion: v2
-    created: "2026-02-09T10:42:34.451625+01:00"
+    created: "2026-04-03T09:54:59.611634+02:00"
     description: Migrate a VM from VMWare EXSi to KubeVirt with Forklift
     digest: 1d81d33dd3e4bb5658f8c37a5642b2938aae92f716e92456b1b008d4d2de8481
     name: vm-migration
@@ -618,4 +590,4 @@ entries:
     urls:
     - vm-migration-0.2.1.tgz
     version: 0.2.1
-generated: "2026-02-09T10:42:34.42553+01:00"
+generated: "2026-04-03T09:54:59.586926+02:00"
